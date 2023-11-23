@@ -11,14 +11,15 @@ class ViewController: UIViewController {
 
     let productLabel = {
         
-        $0.text = "Product"
-        $0.font = UIFont.systemFont(ofSize: 18, weight: .medium)
-        $0.backgroundColor = .green
-        $0.translatesAutoresizingMaskIntoConstraints = false
+        let label = UILabel()
+        label.text = "Product"
+        label.font = UIFont.systemFont(ofSize: 18, weight: .medium)
+        label.backgroundColor = .green
+        label.translatesAutoresizingMaskIntoConstraints = false
         
-        return $0
+        return label
         
-    }(UILabel())
+    }()
     
     let appleMacBookLabel = {
         
