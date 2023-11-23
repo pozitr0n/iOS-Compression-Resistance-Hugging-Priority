@@ -15,6 +15,7 @@ class ViewController: UIViewController {
         $0.font = UIFont.systemFont(ofSize: 18, weight: .medium)
         $0.backgroundColor = .green
         $0.translatesAutoresizingMaskIntoConstraints = false
+        
         return $0
         
     }(UILabel())
@@ -25,6 +26,7 @@ class ViewController: UIViewController {
         $0.font = UIFont.systemFont(ofSize: 18, weight: .medium)
         $0.backgroundColor = .orange
         $0.translatesAutoresizingMaskIntoConstraints = false
+        
         return $0
         
     }(UILabel())
