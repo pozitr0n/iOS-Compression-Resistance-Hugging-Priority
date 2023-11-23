@@ -12,6 +12,7 @@ class ViewController: UIViewController {
     let productLabel = {
         
         let label = UILabel()
+        
         label.text = "Product"
         label.font = UIFont.systemFont(ofSize: 18, weight: .medium)
         label.backgroundColor = .green
